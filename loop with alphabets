@@ -1,0 +1,14 @@
+def r():
+	n1=[]
+	k=[]
+	lo=1
+	j=int(input())
+	for i in range(j):
+		p=str(input())
+		n1.append(p)
+	while lo != " ":
+		for j in range(len(n1)):
+			k.append(n1)
+		if not j:
+			break
+		print(k)
